@@ -159,7 +159,7 @@ footer {
   bottom: 0;
   width: 100%;
   box-shadow: 0 0 10px rgba(44, 42, 42, 0.5);
-  max-height: 100px; /* Adjust the maximum height as needed */
+  max-height: 50px; /* Adjust the maximum height as needed */
   overflow: auto;
 }
 
