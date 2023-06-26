@@ -72,7 +72,7 @@ function Portfolio() {
         <div className="project-summary">
           <h4>Workout Dashboard</h4>
           <p>
-          This project uses Workout & Nutritional APIs to fetch data for a fitness-oriented application.It's built using JavaScript, HTML, & CSS/Bootstrap for the design. The application incorporates two APIs to retrieve dynamic data that can be customized using JavaScript.
+          This project uses Workout & Nutritional APIs to fetch data for a fitness application.It's built using JavaScript, HTML, & CSS/Bootstrap for the design. The application incorporates two APIs to retrieve dynamic data that can be customized using JavaScript.
           
             Check out demo <a href="https://drive.google.com/file/d/1khdhZMLiejKNgkrHiYcmd2QBcOD-JZNF/view"> here </a>
           </p>
