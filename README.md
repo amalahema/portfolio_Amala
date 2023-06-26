@@ -48,9 +48,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ### Links
-Github URL:  https://github.com/amalahema/Portfolio_React
+Github URL:  https://github.com/amalahema/portfolio_Amala
 
-Delpyed URL: https://amalahema.github.io/Portfolio_React/
+
+Delpyed URL: https://amalahema.github.io/portfolio_Amala/
+
 
 
 ### Code Construction
