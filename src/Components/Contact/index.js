@@ -56,6 +56,7 @@ function Contact() {
         </div>
 
         <div className="contact-form">
+
           <h3>Contact Me</h3>
           <form className="form">
             <label htmlFor="contact-name">Your Name</label>
