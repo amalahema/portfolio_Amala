@@ -48,7 +48,7 @@ function Contact() {
           
             <br />
             E:{" "}
-            <a href="mailto:amalahema@gmail.com">amalahema@gmail.com</a>
+            <a href="mailto:amalahemafrancis@gmail.com">amalahemafrancis@gmail.com</a>
           </address>
           <p>
             <strong>I'd love to hear your feedback!</strong>
