@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_Amala/static/css/main.eb8b4162.css",
-    "main.js": "/portfolio_Amala/static/js/main.06d6d968.js",
+    "main.css": "/portfolio_Amala/static/css/main.8d332b55.css",
+    "main.js": "/portfolio_Amala/static/js/main.1536f659.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_Amala/static/js/787.1ed0c42c.chunk.js",
     "static/media/amala.png": "/portfolio_Amala/static/media/amala.7c8d3f348b43838783a0.png",
     "static/media/workout.png": "/portfolio_Amala/static/media/workout.73ce334775f385f62541.png",
@@ -10,12 +10,12 @@
     "static/media/sales.jpg": "/portfolio_Amala/static/media/sales.90fc8434ade92de21d26.jpg",
     "static/media/header.jpg": "/portfolio_Amala/static/media/header.cce5c5a81fc7ac2edfa6.jpg",
     "index.html": "/portfolio_Amala/index.html",
-    "main.eb8b4162.css.map": "/portfolio_Amala/static/css/main.eb8b4162.css.map",
-    "main.06d6d968.js.map": "/portfolio_Amala/static/js/main.06d6d968.js.map",
+    "main.8d332b55.css.map": "/portfolio_Amala/static/css/main.8d332b55.css.map",
+    "main.1536f659.js.map": "/portfolio_Amala/static/js/main.1536f659.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_Amala/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb8b4162.css",
-    "static/js/main.06d6d968.js"
+    "static/css/main.8d332b55.css",
+    "static/js/main.1536f659.js"
   ]
 }
