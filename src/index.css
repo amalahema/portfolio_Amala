@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #c74410;
 
 }
 
@@ -14,7 +15,7 @@ code {
 }
 .intro p {
   line-height: 1.7;
-  color: #0E5259;
+  color: #c74410;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -29,7 +30,8 @@ code {
 }
 .intro-info p
 {
-  font-size: 30px;
+  font-size: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom of each paragraph */
 }
 
 .intro-img {
@@ -70,6 +72,7 @@ header {
 header a {
   text-decoration: none;
   color: #b93e05;
+  font-size: 30px;
 }
 
 
@@ -124,7 +127,7 @@ header nav ul li a:hover {
 }
 .about-me
 {
-  font-size: 36px; /* Set the desired text size */
+  font-size: 26px; /* Set the desired text size */
 }
 
 
@@ -153,14 +156,12 @@ footer nav ul li a:hover {
 }
 footer {
   background-color:rgba(18, 19, 19, 0.8);  /* Same background color as the header navigation */
-  padding: 2px 0;
+  padding: 5px 0;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 0 10px rgba(44, 42, 42, 0.5);
-  max-height: 50px; /* Adjust the maximum height as needed */
-  overflow: auto;
+  box-shadow: 0 0 30px rgba(44, 42, 42, 0.5);
 }
 
 .resume-text {
@@ -175,7 +176,25 @@ footer {
   border-radius: 5px;
   font-size: 23px;
 }
+nav {
+ display:flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
 .resume-text:hover {
   background-color: #d96029;
 }
@@ -228,24 +247,23 @@ footer {
 
 .project-summary p,h4 {
   color: #db6b02;
-  font-size: 28px;
+  font-size: 20px;
+  line-height: 1.5; /* Adjust line-height as needed */
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size:24px;
-  margin-left: 160px;
+  font-size: 24px;
+  margin-left: 550px; /* Adjust the margin to move it away from the left */
 }
 
 .contact-form {
-  padding-right: 10%;
+  padding-right: 10px;
+  margin: 0 auto; /* Horizontal centering */
+  margin-left: 100px; /* Adjust the margin to move it away from the center */
 }
-.contact h2 {
-  color: #F2E3D5;
-}
-
 .contact-form input,
 .contact-form textarea {
   border: 1px solid #024e76;
@@ -261,6 +279,217 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
 
 }
+/*media queriers for different viewport*/
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .intro-info {
+    flex-direction: column;
+    align-items: center;
+  }
+ .intro p{
+  text-align: justify;
+  line-height: 1.7;
+  color: #0E5259;
+  width: 80%;
+  font-size: 18px; /* Updated font size */
+  margin: 20px auto 30px; /* Adjust margin for better spacing */
+ }
+  .about-me {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+ 
+  .contact-info,
+  .contact-form {
+    flex-basis: 50%; /* Make each element occupy 50% of the container width */
+    margin-bottom: 10px; /* Adjust margin for better spacing */
+  }
+  footer {
+    padding: 15px 0;
+  }
+ 
+  .project-img img {
+    max-width: 90%; /* Reduce the maximum width for medium screens */
+    margin-top: 20px;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 35px; /* Add margin between list items */
+    
+ 
+  }
+  
+
+  header nav ul li a {
+ 
+    font-size: 25px;
+    
+
+
+    display: inline-block; /* Ensure proper spacing between elements */
+    padding: 10px; /* Adjust padding to control the size of the link */
+    color:  #b93e05; /* Set the default color for the links */
+  }
+  
+  header nav ul li a:hover {
+    padding: 3px 10px; /* Adjust padding to control the size of the link on hover */
+    background: #1d1c1c;
+    color: #D5F2EA;
+    border-radius: 5px;
+    text-shadow: none;
+    text-decoration: underline; /* Add underline style on hover */
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+
+ nav  {
+    flex-direction: column; /* Add this to stack the li elements in a column */
+  
+  }
+  nav ul 
+  {
+    flex-direction: column; 
+    padding: 10px;
+    background-color: #e9edf0;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%; /* Take full width */
+   
+  }
+
+  nav ul li {
+    margin: 5px 0;
+ 
+  }
+ nav ul li a 
+ {
+    font-size: 55px;
+    width: 100%; 
+  }
+  
+  h4 {
+    font-size: 20px; /* Reduce font size for mobile screens */
+  }
+
+  p {
+    font-size: 14px; /* Reduce font size for mobile screens */
+  }
+  .contact-info {
+    margin-left: 30px;
+  }
+
+  .contact-form {
+    margin-left: 30px;
+  }
+
+ 
+}
+/* Small screens (mobile phones) */
+@media (max-width: 480px) {
+  .intro-info {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-img {
+    margin-bottom: 20px;
+  }
+
+  .intro p {
+    width: 90%; /* Set width to 100% to occupy the full width of the screen */
+    font-size: 16px; /* Decrease font size for smaller screens */
+    line-height: 1.5; /* Adjust line-height for better readability */
+    margin: 20px auto 30px; /* Adjust margin for better spacing */
+  }
+  
+  .about-me {
+    font-size: 16px;
+    text-align: center;
+  }
+  .contact {
+    padding: 10px;
+  }
+  
+  .contact-info,
+  .contact-form {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+
+  
+  footer {
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    margin: 0 5px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 5px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .project-info {
+    font-size: 16px;
+    margin-bottom: 15px; /* Reduce the margin for smaller screens */
+  }
+  .project-img img {
+
+    max-width: 100%; /* Reduce the maximum width for small screens */
+    margin-top: 20px;
+  }
+  .project-summary p,h4 {
+    color: #db6b02;
+    font-size: 16px;
+    line-height: 1.5; /* Adjust line-height as needed */
+  }
+  
+  h4 {
+    font-size: 18px; /* font size for smaller screens */
+  }
+
+  p {
+    font-size: 12px; /*font size for smaller screens */
+  }
+}
+
 
 
 
