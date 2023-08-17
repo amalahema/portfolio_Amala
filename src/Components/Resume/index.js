@@ -29,7 +29,7 @@ function Resume() {
 					<li>Express</li>
 					<li>Model View Controller (MVC)</li>
 					<li>REST</li>
-					<li>Progressive Web Applications (PWA)</li>
+					
 				</ol>
 				<br></br>
 				<h5>Dev Tool Proficiencies</h5>
