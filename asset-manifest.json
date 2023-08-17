@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio_Amala/static/css/main.69e3e913.css",
-    "main.js": "/portfolio_Amala/static/js/main.1536f659.js",
+    "main.js": "/portfolio_Amala/static/js/main.62b8b984.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_Amala/static/js/787.1ed0c42c.chunk.js",
     "static/media/amala.png": "/portfolio_Amala/static/media/amala.7c8d3f348b43838783a0.png",
     "static/media/workout.png": "/portfolio_Amala/static/media/workout.73ce334775f385f62541.png",
-    "static/media/Resume_AmalaHemaFrancis.pdf": "/portfolio_Amala/static/media/Resume_AmalaHemaFrancis.b9e951be4ec5a378853c.pdf",
     "static/media/event.PNG": "/portfolio_Amala/static/media/event.19730bf4d570c4547aec.PNG",
     "static/media/sales.jpg": "/portfolio_Amala/static/media/sales.90fc8434ade92de21d26.jpg",
+    "static/media/Resume1.pdf": "/portfolio_Amala/static/media/Resume1.f0625a3e6b444286c48b.pdf",
     "static/media/header.jpg": "/portfolio_Amala/static/media/header.cce5c5a81fc7ac2edfa6.jpg",
     "index.html": "/portfolio_Amala/index.html",
     "main.69e3e913.css.map": "/portfolio_Amala/static/css/main.69e3e913.css.map",
-    "main.1536f659.js.map": "/portfolio_Amala/static/js/main.1536f659.js.map",
+    "main.62b8b984.js.map": "/portfolio_Amala/static/js/main.62b8b984.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_Amala/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69e3e913.css",
-    "static/js/main.1536f659.js"
+    "static/js/main.62b8b984.js"
   ]
 }
